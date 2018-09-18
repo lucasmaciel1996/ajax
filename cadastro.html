@@ -1,0 +1,42 @@
+<html>
+ <meta chartset="utf-8">
+ <head> <title>Letreiro</title>
+ <style>
+   label{
+    width: 100px;
+    display: inline-block;
+    color:red;
+   
+   }
+   div{
+     margin: 4px 0 4px 0;
+   }
+   .vermelho label{
+     color :red;        
+   }
+   
+  
+ </style>
+  <script type="text/javascript" src="jquery-3.3.1.js"> </script>
+ </head> 
+ <body>
+     <h1>Cadastro</h1>
+     <fieldset>
+        <div>
+          <label>Nome</label>
+          <input type="text" name="nome" id="nome" />
+        </div>
+       <div class="vermelho">
+         <label>Cidade</label>
+         <input type="text" name="cidade" id="cidade" /> 
+       </div>
+       <button id="btn-add">cadastro</button>
+     </fieldset>
+      
+      <ul id="lista">
+        <li>Nome - Cidade</li>
+      </ul>
+    <script type="text/javascript" src="cadastro.js"> </script> 
+    
+ </body>
+</html>

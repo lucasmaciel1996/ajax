@@ -1,0 +1,52 @@
+<html>
+ <head>
+   <meta chartset="uft- 8">
+   <title>vetor</title>
+   
+   <style>
+     #visor{
+       background-color: silver;
+       border:1px solid;
+       padding:4px;
+       text-align: right;
+       width: 250px;
+       font-family:monospace;
+       font-size: large;
+       margin-bottom:2px;s
+     }
+     #op{
+       width :20px;
+       
+     }
+   </style>
+ </head>
+ <body>
+   <h1>Calculadora</h1>
+   
+      <div id="visor">
+        00,000
+     </div>
+   
+     <div id="input">
+      <input type="text" id="n1" />
+      </br>
+       <input type="text" id="op">
+       </br>
+      <input type="text" id="n2" />
+      </br>
+     </div>
+   
+     <button value="1" id="btn-soma" onclick="visor()">Somar (+)  </button>
+     
+     <button value="2" id="btn-div"  onclick="visor()">Dividir (/)</button>
+     
+     <button value="3" id="btn-mult"  onclick="visor()">Multiplicar (*)  </button>
+     
+     <button value="4" id="btn-sub"  onclick="visor()">Subtrair (-)</button>
+     </br>
+      <button onclick="calcular()">=</button>
+    
+   <script type="text/javascript" src="calc.js"> </script>
+ </body>
+</html>
+
